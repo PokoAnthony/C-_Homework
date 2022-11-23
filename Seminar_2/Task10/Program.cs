@@ -4,3 +4,16 @@
 // 782 -> 8
 // 918 -> 1
 
+Console.WriteLine("Введите трёхзначное число: ");
+int num = int.Parse(Console.ReadLine());
+
+if (num < 100 || num > 999)
+{
+    Console.WriteLine("Введите трёхзначное число!");
+}
+
+else if (num < 1000 && num > 99)
+{
+    num = num % 100;
+    Console.WriteLine("Вторая цифра этого числа является: " + num / 10);
+}
