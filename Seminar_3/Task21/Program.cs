@@ -33,4 +33,4 @@ Console.WriteLine();
 
 double ab = Math.Sqrt(Math.Pow(bX - aX, 2) + Math.Pow(bY - aY, 2) + Math.Pow(bZ - aZ, 2));
 
-Console.WriteLine( "Расстояние между двумя точками в 3D пространстве состовляет: "+ ab);
+Console.WriteLine("Расстояние между двумя точками в 3D пространстве состовляет: "+ ab);
