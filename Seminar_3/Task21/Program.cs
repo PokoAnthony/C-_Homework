@@ -10,27 +10,27 @@
 // AB = √(xb - xa)2 + (yb - ya)2 + (zb - za)2
 
 Console.Write("Введите координаты точки А(x): ");
-double Ax = double.Parse(Console.ReadLine());
+double aX = double.Parse(Console.ReadLine());
 Console.WriteLine();
 Console.Write("Введите координаты точки А(y): ");
-double Ay = double.Parse(Console.ReadLine());
+double aY = double.Parse(Console.ReadLine());
 Console.WriteLine();
 Console.Write("Введите координаты точки А(z): ");
-double Az = double.Parse(Console.ReadLine());
+double aZ = double.Parse(Console.ReadLine());
 Console.WriteLine();
 
 Console.WriteLine();
 
 Console.Write("Введите координаты точки B(x): ");
-double Bx = double.Parse(Console.ReadLine());
+double bX = double.Parse(Console.ReadLine());
 Console.WriteLine();
 Console.Write("Введите координаты точки B(y): ");
-double By = double.Parse(Console.ReadLine());
+double bY = double.Parse(Console.ReadLine());
 Console.WriteLine();
 Console.Write("Введите координаты точки B(z): ");
-double Bz = double.Parse(Console.ReadLine());
+double bZ = double.Parse(Console.ReadLine());
 Console.WriteLine();
 
-double AB = Math.Sqrt(Math.Pow(Bx - Ax, 2) + Math.Pow(By - Ay, 2) + Math.Pow(Bz - Az, 2));
+double ab = Math.Sqrt(Math.Pow(bX - aX, 2) + Math.Pow(bY - aY, 2) + Math.Pow(bZ - aZ, 2));
 
-Console.WriteLine( "Расстояние между двумя точками в 3D пространстве состовляет: "+ AB);
+Console.WriteLine( "Расстояние между двумя точками в 3D пространстве состовляет: "+ ab);
