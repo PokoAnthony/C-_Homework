@@ -9,7 +9,7 @@ Console.Clear();
 Console.Write("Введите M чисел (через запятую): ");
 int[] array = Array.ConvertAll(Console.ReadLine().Split(","), int.Parse); // Array.ConvertAll метод преобразования массива одного типа в другой тип, Split -  разбивает входную строку по одному или нескольким разделителям 
 int sum = 0;
- 
+
 for (int i = 0; i < array.Length; i++)
 {
     if (array[i] > 0)
@@ -17,7 +17,6 @@ for (int i = 0; i < array.Length; i++)
         sum++;
     }
 }
- 
+
 Console.WriteLine($"Количество чисел M больше '0' = {sum}");
-    
-      
+
